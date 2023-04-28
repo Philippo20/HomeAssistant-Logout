@@ -1,0 +1,28 @@
+{
+    "domain": "logout_control",
+    "name": "Logout Control",
+    "documentation": "https://github.com/Philippo20/HomeAssistant-Logout",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": [],
+    "config_flow": false,
+    "quality_scale": "gold",
+    "version": "1.1.0",
+    "description": "Provides services to manage user login and authentication.",
+    "dependencies": [],
+    "codeowners": [
+        "Acquaye Philip"
+    ],
+    "requirements": [],
+    "iot_class": "Local Push",
+    "services": {
+        "clear_refresh_tokens": {
+            "description": "Clear the refresh tokens of the current user.",
+            "fields": {},
+            "target": {
+                "domain": "logout_control",
+                "service": "clear_refresh_tokens"
+            }
+        }
+    }
+}
