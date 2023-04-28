@@ -1,7 +1,7 @@
 service: persistent_notification.create
 data:
   message: "Are you sure you want to Logout?"
-  title: "Clear Refresh Tokens"
+  title: "Logout"
   notification_id: "confirm_clear_refresh_tokens"
   actions:
     - action: clear_refresh_tokens
