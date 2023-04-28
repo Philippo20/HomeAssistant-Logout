@@ -1,2 +1,2 @@
 # HomeAssistant-Logout
-Home Assistant logout using the current user token by clearing it
+Home Assistant logout a user using the current user token by clearing it
